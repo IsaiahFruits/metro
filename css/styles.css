@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.contenedor{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32%;
+    height: 80%;
+    border-radius: 5px;
+}
+.contenedor path{
+    position: absolute;
+    overflow: hidden;
+}
+.lines{
+    position: absolute;
+    background-color: rgb(90, 90, 90);
+    border-radius: 10px;
+    margin: 0;
+    padding: 1%;
+    width: 95%;
+    height: 95%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.contain_tittle{
+    position: absolute;
+    background-color: transparent;
+    top: 30%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 20%;
+}
+.contain_tittle h2{
+    font-size: 6vw;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+.my1{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3vw;
+    text-align: center;
+}
+.contain_tittle a{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1vw;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+.my2{
+    font-size: 1.5vw;
+}
+@media screen and (max-width: 600px){
+    .contenedor{
+        width: 100%;
+    }
+    .contain_tittle{
+        left: 15%;
+        top: 75%;
+    }
+}
